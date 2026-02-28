@@ -1,0 +1,12 @@
+{
+  "experiment_date": "2026-02-22",
+  "experiment_time": "11:52:49",
+  "duration_seconds": 100.18,
+  "target_server": "192.168.0.100:9000",
+  "total_frames_captured": 0,
+  "total_bytes_captured": 0,
+  "frames_per_camera": {},
+  "avg_latency_ms": 0,
+  "confidentiality_violated": false,
+  "vulnerability_confirmed": false
+}
