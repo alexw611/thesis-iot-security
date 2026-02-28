@@ -1,0 +1,6 @@
+scapy
+opencv-python
+numpy
+Pillow
+requests
+cryptography
