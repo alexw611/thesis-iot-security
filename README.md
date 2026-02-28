@@ -1,5 +1,3 @@
-
-
 # IoT Camera Security Analysis – Bachelor Thesis
 
 ## Author
@@ -13,9 +11,10 @@ This repository contains the complete source code developed for the bachelor the
 **"Sicherheitsanalyse und Härtung eines IoT-Video-Streaming-Systems basierend auf ESP32-CAMs"**
 (Security Analysis and Hardening of an IoT Video Streaming System Based on ESP32-CAMs)
 
-Up to 98 % of IoT communication remains unencrypted, while regulatory frameworks such as the EU Cyber Resilience Act will mandate security by default from 2027. This thesis investigates the actual performance overhead of lightweight hardening measures on resource-constrained microcontrollers by building a deliberately insecure IoT camera system (Vulnerable by Design), attacking it, hardening it, and measuring the impact.
+Up to 98 % of IoT communication remains unencrypted, while regulatory frameworks such as the EU Cyber Resilience Act will mandate security by default from 2027. This thesis investigates the actual performance overhead of lightweight hardening measures on resource-constrained microcontrollers by building a deliberately vulnerable IoT camera system (Vulnerable by Design), attacking it, hardening it, and measuring the impact.
 
 ## Repository Structure
+
 ```text
 thesis-iot-security/
 │
@@ -26,11 +25,11 @@ thesis-iot-security/
 │
 ├── system/
 │   ├── requirements_server.txt   # Raspberry Pi 5 dependencies
-│   ├── unsecure.ino              # ESP32-CAM streamer (vulnerable by design)
-│   ├── unsecure.py               # Raspberry Pi server + Flask dashboard (vulnerable)
-│   ├── data1.py                  # Measurement data collection (insecure system)
-│   ├── secure.ino                # ESP32-CAM streamer (hardened)
-│   ├── secure.py                 # Raspberry Pi server + Flask dashboard (hardened)
+│   ├── vulnerable.ino            # ESP32-CAM streamer (vulnerable by design)
+│   ├── vulnerable.py             # Raspberry Pi server + Flask dashboard (vulnerable)
+│   ├── data1.py                  # Measurement data collection (vulnerable system)
+│   ├── hardened.ino              # ESP32-CAM streamer (hardened)
+│   ├── hardened.py               # Raspberry Pi server + Flask dashboard (hardened)
 │   └── data2.py                  # Measurement data collection (hardened system)
 │
 ├── attacks/
@@ -38,18 +37,18 @@ thesis-iot-security/
 │   ├── mitm.py                   # Man-in-the-Middle (ARP spoofing + image reconstruction)
 │   ├── injection.py              # Fake video injection
 │   ├── brute_force.py            # Brute-force with internet wordlists (SecLists)
-│   ├── dos1.py                   # Denial-of-Service (insecure system)
+│   ├── dos1.py                   # Denial-of-Service (vulnerable system)
 │   └── dos2.py                   # Denial-of-Service (hardened system)
 │
 └── measurements/
-    ├── insecure/
+    ├── vulnerable/
     │   ├── baseline/
     │   ├── dos/
     │   ├── mitm/
     │   ├── injection/
     │   └── bruteforce/
     │
-    └── secure/
+    └── hardened/
         ├── baseline/
         ├── dos/
         ├── mitm/
@@ -61,7 +60,7 @@ thesis-iot-security/
 
 ![Network Topology](images/network_topology.png)
 
-### Insecure System
+### Vulnerable System
 - No encryption, no authentication, no rate limiting
 - TCP stream transmitted in cleartext
 - Dashboard accessible without login
@@ -76,7 +75,7 @@ thesis-iot-security/
 ## Hardware Requirements
 - 3x ESP32-CAM (AI-Thinker) with OV2640 camera module
 - 1x Raspberry Pi 5 (8 GB RAM)
-- 1x Router 
+- 1x Router
 - 1x Attacking machine (e.g., MacBook with Python 3.x)
 
 ## Software Dependencies
@@ -125,8 +124,8 @@ pip install -r requirements_attacker.txt
 - Any loss of data, service disruption, or security breaches resulting from the application of these tools outside of a controlled lab environment
 
 ## Attacks Performed
-| Attack | Target | Insecure System | Hardened System |
-|--------|--------|-----------------|-----------------|
+| Attack | Target | Vulnerable System | Hardened System |
+|--------|--------|-------------------|-----------------|
 | Man-in-the-Middle | TCP stream (port 9000) | Successful | Blocked (AES-128 + HMAC) |
 | Fake Video Injection | Dashboard (port 5000) | Successful | Blocked (HMAC + whitelist) |
 | Brute-Force | Dashboard login (port 5000) | Successful | Blocked (lockout + rate limit) |
