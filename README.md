@@ -16,11 +16,13 @@ This repository contains the complete source code developed for the bachelor the
 Up to 98 % of IoT communication remains unencrypted, while regulatory frameworks such as the EU Cyber Resilience Act will mandate security by default from 2027. This thesis investigates the actual performance overhead of lightweight hardening measures on resource-constrained microcontrollers by building a deliberately insecure IoT camera system (Vulnerable by Design), attacking it, hardening it, and measuring the impact.
 
 ## Repository Structure
-
-```
+```text
 thesis-iot-security/
 │
 ├── README.md
+│
+├── images/
+│   └── network_topology.png      # Network architecture diagram
 │
 ├── system/
 │   ├── requirements_server.txt   # Raspberry Pi 5 dependencies
@@ -57,15 +59,9 @@ thesis-iot-security/
 
 ## System Architecture
 
-```
-┌──────────────────┐    TCP Port 9000    ┌─────────────────────────┐
-│  ESP32-CAM x3    │ ──── Stream ──────→ │   Raspberry Pi 5        │
-│  (520 KB RAM)    │                     │   Flask Dashboard       │
-│  AES-128 + HMAC  │                     │   Port 5000             │
-└──────────────────┘                     │   Account Lockout       │
-                                         │   Rate Limiting         │
-                                         └─────────────────────────┘
-```
+![Network Topology](images/network_topology.png)
+
+*Note: Some labels in the diagram are kept in German to maintain consistency with the original bachelor thesis.*
 
 ### Insecure System
 - No encryption, no authentication, no rate limiting
@@ -94,16 +90,17 @@ thesis-iot-security/
   (WiFi, esp_camera, mbedtls for AES-128 and HMAC-SHA256)
 
 ### Raspberry Pi 5 (Server + Dashboard)
+```bash
 cd system/
 pip install -r requirements_server.txt
+```
 
 ### MacBook (Measurements + Attacks)
+```bash
 cd attacks/
 pip install -r requirements_attacker.txt
-
-Note: The measurement scripts (data1.py, data2.py) are located in
-system/ but were executed from the MacBook. Their dependencies are
-covered by attacks/requirements_attacker.txt.
+```
+*Note: The measurement scripts (data1.py, data2.py) are located in system/ but were executed from the MacBook. Their dependencies are covered by attacks/requirements_attacker.txt.*
 
 ## ⚠️ Ethical Use and Legal Disclaimer
 
@@ -130,7 +127,6 @@ covered by attacks/requirements_attacker.txt.
 - Any loss of data, service disruption, or security breaches resulting from the application of these tools outside of a controlled lab environment
 
 ## Attacks Performed
-
 | Attack | Target | Insecure System | Hardened System |
 |--------|--------|-----------------|-----------------|
 | Man-in-the-Middle | TCP stream (port 9000) | Successful | Blocked (AES-128 + HMAC) |
@@ -153,7 +149,6 @@ This project is provided **for educational and academic purposes only**. No lice
 
 ## Citation
 If you reference this work, please cite:
-
 > Werner, A. (2026). *Sicherheitsanalyse und Härtung eines IoT-Video-Streaming-Systems basierend auf ESP32-CAMs* [Bachelor thesis]. IU Internationale Hochschule.
 
 ## Contact
