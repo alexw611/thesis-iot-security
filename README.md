@@ -19,21 +19,26 @@ Up to 98 % of IoT communication remains unencrypted, while regulatory frameworks
 
 ```
 thesis-iot-security/
+│
 ├── README.md
-├── requirements.txt
+│
 ├── system/
-│   ├── unsecure.ino            # ESP32-CAM streamer (vulnerable by design)
-│   ├── unsecure.py             # Raspberry Pi server + Flask dashboard (vulnerable)
-│   ├── data1.py                # Measurement data collection (insecure system)
-│   ├── secure.ino              # ESP32-CAM streamer (hardened)
-│   ├── secure.py               # Raspberry Pi server + Flask dashboard (hardened)
-│   └── data2.py                # Measurement data collection (hardened system)
+│   ├── requirements_server.txt   # Raspberry Pi 5 dependencies
+│   ├── unsecure.ino              # ESP32-CAM streamer (vulnerable by design)
+│   ├── unsecure.py               # Raspberry Pi server + Flask dashboard (vulnerable)
+│   ├── data1.py                  # Measurement data collection (insecure system)
+│   ├── secure.ino                # ESP32-CAM streamer (hardened)
+│   ├── secure.py                 # Raspberry Pi server + Flask dashboard (hardened)
+│   └── data2.py                  # Measurement data collection (hardened system)
+│
 ├── attacks/
-│   ├── mitm.py                 # Man-in-the-Middle (ARP spoofing + image reconstruction)
-│   ├── injection.py            # Fake video injection
-│   ├── brute_force.py          # Brute-force with internet wordlists (SecLists)
-│   ├── dos1.py                 # Denial-of-Service (insecure system)
-│   └── dos2.py                 # Denial-of-Service (hardened system)
+│   ├── requirements_attacker.txt # MacBook dependencies (attacks + measurements)
+│   ├── mitm.py                   # Man-in-the-Middle (ARP spoofing + image reconstruction)
+│   ├── injection.py              # Fake video injection
+│   ├── brute_force.py            # Brute-force with internet wordlists (SecLists)
+│   ├── dos1.py                   # Denial-of-Service (insecure system)
+│   └── dos2.py                   # Denial-of-Service (hardened system)
+│
 └── measurements/
     ├── insecure/
     │   ├── baseline/
@@ -41,6 +46,7 @@ thesis-iot-security/
     │   ├── mitm/
     │   ├── injection/
     │   └── bruteforce/
+    │
     └── secure/
         ├── baseline/
         ├── dos/
@@ -81,9 +87,19 @@ thesis-iot-security/
 
 ## Software Dependencies
 
-```bash
-pip install flask requests scapy opencv-python numpy Pillow cryptography werkzeug
-```
+### ESP32-CAM (Arduino IDE)
+- ESP32 Board Package by Espressif Systems
+- Board: AI Thinker ESP32-CAM
+- All required libraries are included in the board package
+  (WiFi, esp_camera, mbedtls for AES-128 and HMAC-SHA256)
+
+### Raspberry Pi 5 (Server + Dashboard)
+cd system/
+pip install -r requirements_server.txt
+
+### MacBook (Measurements + Attacks)
+cd attacks/
+pip install -r requirements_attacker.txt
 
 ## ⚠️ Ethical Use and Legal Disclaimer
 
