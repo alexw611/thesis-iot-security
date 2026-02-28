@@ -101,6 +101,10 @@ pip install -r requirements_server.txt
 cd attacks/
 pip install -r requirements_attacker.txt
 
+Note: The measurement scripts (data1.py, data2.py) are located in
+system/ but were executed from the MacBook. Their dependencies are
+covered by attacks/requirements_attacker.txt.
+
 ## ⚠️ Ethical Use and Legal Disclaimer
 
 **THIS REPOSITORY IS PUBLISHED SOLELY FOR ACADEMIC AND EDUCATIONAL PURPOSES AS PART OF A BACHELOR THESIS AT IU INTERNATIONALE HOCHSCHULE.**
