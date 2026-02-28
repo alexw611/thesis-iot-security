@@ -1,0 +1,3588 @@
+{
+  "experiment_name": "Brute-Force Admin-Login (Internet-Wortlisten)",
+  "experiment_date": "2026-02-04",
+  "experiment_time": "15:21:22",
+  "target": "http://192.168.0.100:5000/",
+  "username_source": "https://raw.githubusercontent.com/danielmiessler/SecLists/master/Usernames/top-usernames-shortlist.txt",
+  "password_source": "https://raw.githubusercontent.com/danielmiessler/SecLists/master/Passwords/Common-Credentials/10k-most-common.txt",
+  "total_usernames": 17,
+  "total_passwords": 1000,
+  "total_combinations": 17000,
+  "threads_used": 10,
+  "attempts_made": 395,
+  "successful_logins": [
+    {
+      "username": "admin",
+      "password": "admin"
+    }
+  ],
+  "credentials_found": [
+    "admin:admin"
+  ],
+  "start_time": "2026-02-04T15:21:22.583287",
+  "end_time": "2026-02-04T15:21:25.992311",
+  "duration_seconds": 3.41,
+  "attempts_per_second": 115.84,
+  "rate_limiting_detected": false,
+  "account_lockout_detected": false,
+  "captcha_detected": false,
+  "weak_credentials_found": true,
+  "vulnerability_confirmed": true,
+  "all_attempts": [
+    {
+      "timestamp": "2026-02-04T15:21:22.585883",
+      "username": "mysql",
+      "password": "general",
+      "success": false,
+      "response_time_ms": 25.73,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.583723",
+      "username": "root",
+      "password": "password",
+      "success": false,
+      "response_time_ms": 34.7,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.584145",
+      "username": "admin",
+      "password": "bishop",
+      "success": false,
+      "response_time_ms": 35.69,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.587527",
+      "username": "administrator",
+      "password": "nelson",
+      "success": false,
+      "response_time_ms": 32.53,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.585492",
+      "username": "adm",
+      "password": "falcon",
+      "success": false,
+      "response_time_ms": 34.91,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.584953",
+      "username": "guest",
+      "password": "private",
+      "success": false,
+      "response_time_ms": 35.77,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.591717",
+      "username": "ansible",
+      "password": "howard",
+      "success": false,
+      "response_time_ms": 29.12,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.588528",
+      "username": "ftp",
+      "password": "hannah",
+      "success": false,
+      "response_time_ms": 32.43,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.592640",
+      "username": "vagrant",
+      "password": "canada",
+      "success": false,
+      "response_time_ms": 28.45,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.590678",
+      "username": "pi",
+      "password": "movie",
+      "success": false,
+      "response_time_ms": 30.5,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.666773",
+      "username": "mysql",
+      "password": "passport",
+      "success": false,
+      "response_time_ms": 44.21,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.673551",
+      "username": "root",
+      "password": "123456",
+      "success": false,
+      "response_time_ms": 37.63,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.675411",
+      "username": "administrator",
+      "password": "nirvana",
+      "success": false,
+      "response_time_ms": 35.97,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.675754",
+      "username": "ftp",
+      "password": "slayer",
+      "success": false,
+      "response_time_ms": 35.72,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.675065",
+      "username": "adm",
+      "password": "iloveyou",
+      "success": false,
+      "response_time_ms": 36.55,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.676579",
+      "username": "pi",
+      "password": "woody",
+      "success": false,
+      "response_time_ms": 35.15,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.676879",
+      "username": "vagrant",
+      "password": "nathan",
+      "success": false,
+      "response_time_ms": 34.94,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.671049",
+      "username": "admin",
+      "password": "windows",
+      "success": false,
+      "response_time_ms": 40.84,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.676245",
+      "username": "ansible",
+      "password": "time",
+      "success": false,
+      "response_time_ms": 35.73,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.675834",
+      "username": "guest",
+      "password": "godzilla",
+      "success": false,
+      "response_time_ms": 36.26,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.764832",
+      "username": "pi",
+      "password": "shaved",
+      "success": false,
+      "response_time_ms": 22.14,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.766795",
+      "username": "administrator",
+      "password": "vampire",
+      "success": false,
+      "response_time_ms": 20.5,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.766298",
+      "username": "guest",
+      "password": "donald",
+      "success": false,
+      "response_time_ms": 21.1,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.766591",
+      "username": "root",
+      "password": "12345678",
+      "success": false,
+      "response_time_ms": 21.19,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.766039",
+      "username": "ansible",
+      "password": "123qwe",
+      "success": false,
+      "response_time_ms": 24.05,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.767878",
+      "username": "ftp",
+      "password": "11111111",
+      "success": false,
+      "response_time_ms": 25.03,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.765165",
+      "username": "vagrant",
+      "password": "victor",
+      "success": false,
+      "response_time_ms": 27.83,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.765252",
+      "username": "admin",
+      "password": "spirit",
+      "success": false,
+      "response_time_ms": 28.89,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.767787",
+      "username": "mysql",
+      "password": "aaaaaaaa",
+      "success": false,
+      "response_time_ms": 40.47,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.770730",
+      "username": "adm",
+      "password": "bailey",
+      "success": false,
+      "response_time_ms": 38.22,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.838154",
+      "username": "administrator",
+      "password": "xxxx",
+      "success": false,
+      "response_time_ms": 19.4,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.838542",
+      "username": "guest",
+      "password": "williams",
+      "success": false,
+      "response_time_ms": 25.7,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.842452",
+      "username": "root",
+      "password": "1234",
+      "success": false,
+      "response_time_ms": 27.65,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.844938",
+      "username": "ftp",
+      "password": "rachel",
+      "success": false,
+      "response_time_ms": 25.31,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.842363",
+      "username": "pi",
+      "password": "snowman",
+      "success": false,
+      "response_time_ms": 27.98,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.845448",
+      "username": "vagrant",
+      "password": "florida",
+      "success": false,
+      "response_time_ms": 25.04,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.842165",
+      "username": "ansible",
+      "password": "november",
+      "success": false,
+      "response_time_ms": 28.4,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.848546",
+      "username": "admin",
+      "password": "pantera",
+      "success": false,
+      "response_time_ms": 32.2,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.864380",
+      "username": "adm",
+      "password": "guitar",
+      "success": false,
+      "response_time_ms": 26.08,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.860123",
+      "username": "mysql",
+      "password": "erotic",
+      "success": false,
+      "response_time_ms": 30.59,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.911211",
+      "username": "administrator",
+      "password": "playboy",
+      "success": false,
+      "response_time_ms": 25.18,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.919397",
+      "username": "guest",
+      "password": "lifehack",
+      "success": false,
+      "response_time_ms": 26.96,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.923606",
+      "username": "pi",
+      "password": "tiger1",
+      "success": false,
+      "response_time_ms": 24.95,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.923892",
+      "username": "ftp",
+      "password": "sexsex",
+      "success": false,
+      "response_time_ms": 24.82,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.924701",
+      "username": "vagrant",
+      "password": "88888888",
+      "success": false,
+      "response_time_ms": 24.24,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.925547",
+      "username": "root",
+      "password": "qwerty",
+      "success": false,
+      "response_time_ms": 23.55,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.925689",
+      "username": "ansible",
+      "password": "xxxxx",
+      "success": false,
+      "response_time_ms": 23.62,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.933659",
+      "username": "admin",
+      "password": "monday",
+      "success": false,
+      "response_time_ms": 19.37,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.941738",
+      "username": "mysql",
+      "password": "liberty",
+      "success": false,
+      "response_time_ms": 61.42,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.945514",
+      "username": "adm",
+      "password": "jackson",
+      "success": false,
+      "response_time_ms": 57.91,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:22.988485",
+      "username": "administrator",
+      "password": "louise",
+      "success": false,
+      "response_time_ms": 36.62,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.004726",
+      "username": "root",
+      "password": "12345",
+      "success": false,
+      "response_time_ms": 28.84,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.000164",
+      "username": "guest",
+      "password": "phantom",
+      "success": false,
+      "response_time_ms": 33.73,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.003593",
+      "username": "ftp",
+      "password": "redsox",
+      "success": false,
+      "response_time_ms": 30.53,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.004805",
+      "username": "vagrant",
+      "password": "nicholas",
+      "success": false,
+      "response_time_ms": 29.66,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.005443",
+      "username": "admin",
+      "password": "patches",
+      "success": false,
+      "response_time_ms": 29.26,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.004265",
+      "username": "pi",
+      "password": "chicks",
+      "success": false,
+      "response_time_ms": 30.59,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.003775",
+      "username": "ansible",
+      "password": "october",
+      "success": false,
+      "response_time_ms": 31.16,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.058338",
+      "username": "mysql",
+      "password": "arizona",
+      "success": false,
+      "response_time_ms": 23.85,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.058770",
+      "username": "adm",
+      "password": "purple",
+      "success": false,
+      "response_time_ms": 23.64,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.079405",
+      "username": "administrator",
+      "password": "pumpkin",
+      "success": false,
+      "response_time_ms": 17.1,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.090447",
+      "username": "ftp",
+      "password": "thx1138",
+      "success": false,
+      "response_time_ms": 25.66,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.091550",
+      "username": "vagrant",
+      "password": "rosebud",
+      "success": false,
+      "response_time_ms": 26.18,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.088714",
+      "username": "root",
+      "password": "dragon",
+      "success": false,
+      "response_time_ms": 38.36,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.090355",
+      "username": "ansible",
+      "password": "leather",
+      "success": false,
+      "response_time_ms": 36.89,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.089604",
+      "username": "guest",
+      "password": "dave",
+      "success": false,
+      "response_time_ms": 37.74,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.090749",
+      "username": "pi",
+      "password": "raptor",
+      "success": false,
+      "response_time_ms": 39.31,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.092142",
+      "username": "admin",
+      "password": "brutus",
+      "success": false,
+      "response_time_ms": 38.27,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.133903",
+      "username": "adm",
+      "password": "scooter",
+      "success": false,
+      "response_time_ms": 17.55,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.137382",
+      "username": "mysql",
+      "password": "jesus",
+      "success": false,
+      "response_time_ms": 26.86,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.148556",
+      "username": "administrator",
+      "password": "snowball",
+      "success": false,
+      "response_time_ms": 32.06,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.167597",
+      "username": "ftp",
+      "password": "asdf",
+      "success": false,
+      "response_time_ms": 27.52,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.172812",
+      "username": "vagrant",
+      "password": "metallic",
+      "success": false,
+      "response_time_ms": 22.64,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.178872",
+      "username": "guest",
+      "password": "rock",
+      "success": false,
+      "response_time_ms": 21.9,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.178793",
+      "username": "ansible",
+      "password": "bastard",
+      "success": false,
+      "response_time_ms": 27.44,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.177856",
+      "username": "root",
+      "password": "pussy",
+      "success": false,
+      "response_time_ms": 28.73,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.183896",
+      "username": "pi",
+      "password": "1969",
+      "success": false,
+      "response_time_ms": 22.94,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.183212",
+      "username": "admin",
+      "password": "houston",
+      "success": false,
+      "response_time_ms": 24.09,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.206966",
+      "username": "adm",
+      "password": "phoenix",
+      "success": false,
+      "response_time_ms": 25.69,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.214645",
+      "username": "mysql",
+      "password": "abcd",
+      "success": false,
+      "response_time_ms": 25.03,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.233610",
+      "username": "administrator",
+      "password": "test123",
+      "success": false,
+      "response_time_ms": 16.38,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.250499",
+      "username": "vagrant",
+      "password": "doctor",
+      "success": false,
+      "response_time_ms": 32.27,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.250366",
+      "username": "ftp",
+      "password": "marlboro",
+      "success": false,
+      "response_time_ms": 32.6,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.258867",
+      "username": "ansible",
+      "password": "young",
+      "success": false,
+      "response_time_ms": 40.86,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.255868",
+      "username": "guest",
+      "password": "august",
+      "success": false,
+      "response_time_ms": 44.03,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.259028",
+      "username": "pi",
+      "password": "stingray",
+      "success": false,
+      "response_time_ms": 51.62,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.260632",
+      "username": "root",
+      "password": "baseball",
+      "success": false,
+      "response_time_ms": 50.23,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.261673",
+      "username": "admin",
+      "password": "smooth",
+      "success": false,
+      "response_time_ms": 56.77,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.303364",
+      "username": "administrator",
+      "password": "girl",
+      "success": false,
+      "response_time_ms": 64.7,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.283591",
+      "username": "adm",
+      "password": "aaaaaa",
+      "success": false,
+      "response_time_ms": 85.7,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.290131",
+      "username": "mysql",
+      "password": "newport",
+      "success": false,
+      "response_time_ms": 79.64,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.339197",
+      "username": "ftp",
+      "password": "panther",
+      "success": false,
+      "response_time_ms": 48.33,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.336804",
+      "username": "vagrant",
+      "password": "trouble",
+      "success": false,
+      "response_time_ms": 50.86,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.354875",
+      "username": "ansible",
+      "password": "101010",
+      "success": false,
+      "response_time_ms": 40.72,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.353640",
+      "username": "guest",
+      "password": "sammy",
+      "success": false,
+      "response_time_ms": 42.1,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.361369",
+      "username": "root",
+      "password": "football",
+      "success": false,
+      "response_time_ms": 40.01,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.362578",
+      "username": "pi",
+      "password": "shooter",
+      "success": false,
+      "response_time_ms": 39.12,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.370238",
+      "username": "admin",
+      "password": "penguin",
+      "success": false,
+      "response_time_ms": 31.63,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.423612",
+      "username": "adm",
+      "password": "morgan",
+      "success": false,
+      "response_time_ms": 18.55,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.421914",
+      "username": "administrator",
+      "password": "sucker",
+      "success": false,
+      "response_time_ms": 20.93,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.424226",
+      "username": "mysql",
+      "password": "skipper",
+      "success": false,
+      "response_time_ms": 19.06,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.438570",
+      "username": "ftp",
+      "password": "zxcvbnm",
+      "success": false,
+      "response_time_ms": 21.12,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.441359",
+      "username": "vagrant",
+      "password": "success",
+      "success": false,
+      "response_time_ms": 25.53,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.449330",
+      "username": "guest",
+      "password": "cool",
+      "success": false,
+      "response_time_ms": 23.13,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.450406",
+      "username": "ansible",
+      "password": "extreme",
+      "success": false,
+      "response_time_ms": 22.18,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.456678",
+      "username": "pi",
+      "password": "france",
+      "success": false,
+      "response_time_ms": 18.56,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.457015",
+      "username": "admin",
+      "password": "marley",
+      "success": false,
+      "response_time_ms": 18.39,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.456543",
+      "username": "root",
+      "password": "letmein",
+      "success": false,
+      "response_time_ms": 20.65,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.493967",
+      "username": "mysql",
+      "password": "rolltide",
+      "success": false,
+      "response_time_ms": 18.65,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.492447",
+      "username": "adm",
+      "password": "tigers",
+      "success": false,
+      "response_time_ms": 20.49,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.493831",
+      "username": "administrator",
+      "password": "mexico",
+      "success": false,
+      "response_time_ms": 19.25,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.514509",
+      "username": "ftp",
+      "password": "arsenal",
+      "success": false,
+      "response_time_ms": 31.68,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.517543",
+      "username": "vagrant",
+      "password": "stupid",
+      "success": false,
+      "response_time_ms": 32.65,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.525695",
+      "username": "guest",
+      "password": "brian",
+      "success": false,
+      "response_time_ms": 43.48,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.526692",
+      "username": "pi",
+      "password": "stars",
+      "success": false,
+      "response_time_ms": 42.72,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.526532",
+      "username": "ansible",
+      "password": "hard",
+      "success": false,
+      "response_time_ms": 43.08,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.529565",
+      "username": "admin",
+      "password": "forest",
+      "success": false,
+      "response_time_ms": 43.09,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.529675",
+      "username": "root",
+      "password": "monkey",
+      "success": false,
+      "response_time_ms": 43.11,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.567061",
+      "username": "administrator",
+      "password": "beatles",
+      "success": false,
+      "response_time_ms": 31.79,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.563593",
+      "username": "mysql",
+      "password": "balls",
+      "success": false,
+      "response_time_ms": 35.45,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.566953",
+      "username": "adm",
+      "password": "porsche",
+      "success": false,
+      "response_time_ms": 32.29,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.600582",
+      "username": "vagrant",
+      "password": "tomcat",
+      "success": false,
+      "response_time_ms": 29.95,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.599712",
+      "username": "ftp",
+      "password": "oliver",
+      "success": false,
+      "response_time_ms": 30.99,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.623334",
+      "username": "pi",
+      "password": "madmax",
+      "success": false,
+      "response_time_ms": 25.95,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.624411",
+      "username": "guest",
+      "password": "platinum",
+      "success": false,
+      "response_time_ms": 35.93,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.624609",
+      "username": "ansible",
+      "password": "password1",
+      "success": false,
+      "response_time_ms": 36.05,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.628227",
+      "username": "root",
+      "password": "696969",
+      "success": false,
+      "response_time_ms": 33.18,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.627560",
+      "username": "admin",
+      "password": "cream",
+      "success": false,
+      "response_time_ms": 34.05,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.651132",
+      "username": "administrator",
+      "password": "fantasy",
+      "success": false,
+      "response_time_ms": 25.5,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.653607",
+      "username": "adm",
+      "password": "mickey",
+      "success": false,
+      "response_time_ms": 23.35,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.654148",
+      "username": "mysql",
+      "password": "happy1",
+      "success": false,
+      "response_time_ms": 23.11,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.682847",
+      "username": "ftp",
+      "password": "qazwsx",
+      "success": false,
+      "response_time_ms": 25.18,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.682577",
+      "username": "vagrant",
+      "password": "warrior",
+      "success": false,
+      "response_time_ms": 25.65,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.703645",
+      "username": "pi",
+      "password": "kristen",
+      "success": false,
+      "response_time_ms": 30.91,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.713883",
+      "username": "admin",
+      "password": "212121",
+      "success": false,
+      "response_time_ms": 44.62,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.713620",
+      "username": "guest",
+      "password": "jake",
+      "success": false,
+      "response_time_ms": 45.52,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.713971",
+      "username": "root",
+      "password": "abc123",
+      "success": false,
+      "response_time_ms": 45.37,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.717234",
+      "username": "ansible",
+      "password": "vincent",
+      "success": false,
+      "response_time_ms": 45.7,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.728821",
+      "username": "adm",
+      "password": "maverick",
+      "success": false,
+      "response_time_ms": 34.23,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.728592",
+      "username": "mysql",
+      "password": "galore",
+      "success": false,
+      "response_time_ms": 35.17,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.731853",
+      "username": "administrator",
+      "password": "ford",
+      "success": false,
+      "response_time_ms": 33.04,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.759414",
+      "username": "ftp",
+      "password": "mother",
+      "success": false,
+      "response_time_ms": 24.22,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.763127",
+      "username": "vagrant",
+      "password": "peaches",
+      "success": false,
+      "response_time_ms": 20.95,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.788596",
+      "username": "pi",
+      "password": "sports",
+      "success": false,
+      "response_time_ms": 33.63,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.813632",
+      "username": "admin",
+      "password": "flash",
+      "success": false,
+      "response_time_ms": 26.83,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.813944",
+      "username": "guest",
+      "password": "bronco",
+      "success": false,
+      "response_time_ms": 26.81,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.820577",
+      "username": "administrator",
+      "password": "gibson",
+      "success": false,
+      "response_time_ms": 20.89,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.814187",
+      "username": "root",
+      "password": "mustang",
+      "success": false,
+      "response_time_ms": 27.42,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.816481",
+      "username": "mysql",
+      "password": "christ",
+      "success": false,
+      "response_time_ms": 25.59,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.816316",
+      "username": "ansible",
+      "password": "pussy1",
+      "success": false,
+      "response_time_ms": 25.87,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.814087",
+      "username": "adm",
+      "password": "cookie",
+      "success": false,
+      "response_time_ms": 28.29,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.839025",
+      "username": "vagrant",
+      "password": "apples",
+      "success": false,
+      "response_time_ms": 30.62,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.839207",
+      "username": "ftp",
+      "password": "victoria",
+      "success": false,
+      "response_time_ms": 30.61,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.872559",
+      "username": "pi",
+      "password": "jerry",
+      "success": false,
+      "response_time_ms": 29.53,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.892343",
+      "username": "admin",
+      "password": "maximus",
+      "success": false,
+      "response_time_ms": 29.4,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.892673",
+      "username": "mysql",
+      "password": "weasel",
+      "success": false,
+      "response_time_ms": 29.35,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.895853",
+      "username": "guest",
+      "password": "paul",
+      "success": false,
+      "response_time_ms": 27.11,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.897284",
+      "username": "administrator",
+      "password": "celtic",
+      "success": false,
+      "response_time_ms": 25.83,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.896664",
+      "username": "root",
+      "password": "michael",
+      "success": false,
+      "response_time_ms": 26.65,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.896794",
+      "username": "adm",
+      "password": "nascar",
+      "success": false,
+      "response_time_ms": 37.68,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.896541",
+      "username": "ansible",
+      "password": "lacrosse",
+      "success": false,
+      "response_time_ms": 38.11,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.923610",
+      "username": "ftp",
+      "password": "7777777",
+      "success": false,
+      "response_time_ms": 20.96,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.924781",
+      "username": "vagrant",
+      "password": "fish",
+      "success": false,
+      "response_time_ms": 33.01,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.953622",
+      "username": "pi",
+      "password": "789456",
+      "success": false,
+      "response_time_ms": 22.01,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.974763",
+      "username": "administrator",
+      "password": "marcus",
+      "success": false,
+      "response_time_ms": 26.89,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.974864",
+      "username": "mysql",
+      "password": "242424",
+      "success": false,
+      "response_time_ms": 27.0,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.974529",
+      "username": "guest",
+      "password": "mark",
+      "success": false,
+      "response_time_ms": 28.47,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.978122",
+      "username": "root",
+      "password": "shadow",
+      "success": false,
+      "response_time_ms": 25.01,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.975334",
+      "username": "admin",
+      "password": "nipple",
+      "success": false,
+      "response_time_ms": 27.92,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.987405",
+      "username": "adm",
+      "password": "peanut",
+      "success": false,
+      "response_time_ms": 34.32,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.987717",
+      "username": "ansible",
+      "password": "hotmail",
+      "success": false,
+      "response_time_ms": 34.51,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:23.995302",
+      "username": "ftp",
+      "password": "jasper",
+      "success": false,
+      "response_time_ms": 27.08,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.009093",
+      "username": "vagrant",
+      "password": "qwertyui",
+      "success": false,
+      "response_time_ms": 23.58,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.029822",
+      "username": "pi",
+      "password": "garcia",
+      "success": false,
+      "response_time_ms": 23.71,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.054248",
+      "username": "administrator",
+      "password": "cherry",
+      "success": false,
+      "response_time_ms": 29.17,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.057227",
+      "username": "root",
+      "password": "master",
+      "success": false,
+      "response_time_ms": 29.03,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.056943",
+      "username": "mysql",
+      "password": "wombat",
+      "success": false,
+      "response_time_ms": 30.29,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.057098",
+      "username": "guest",
+      "password": "frank",
+      "success": false,
+      "response_time_ms": 30.4,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.059222",
+      "username": "admin",
+      "password": "bobby",
+      "success": false,
+      "response_time_ms": 29.08,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.077709",
+      "username": "adm",
+      "password": "justin",
+      "success": false,
+      "response_time_ms": 22.31,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.076571",
+      "username": "ansible",
+      "password": "spooky",
+      "success": false,
+      "response_time_ms": 23.64,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.075156",
+      "username": "ftp",
+      "password": "angel",
+      "success": false,
+      "response_time_ms": 25.2,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.083614",
+      "username": "vagrant",
+      "password": "magic",
+      "success": false,
+      "response_time_ms": 23.48,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.108789",
+      "username": "pi",
+      "password": "simpsons",
+      "success": false,
+      "response_time_ms": 27.02,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.133628",
+      "username": "administrator",
+      "password": "cassie",
+      "success": false,
+      "response_time_ms": 31.37,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.139096",
+      "username": "mysql",
+      "password": "digger",
+      "success": false,
+      "response_time_ms": 35.99,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.140355",
+      "username": "admin",
+      "password": "bradley",
+      "success": false,
+      "response_time_ms": 35.1,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.140045",
+      "username": "root",
+      "password": "jennifer",
+      "success": false,
+      "response_time_ms": 35.85,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.139378",
+      "username": "guest",
+      "password": "heka6w2",
+      "success": false,
+      "response_time_ms": 36.78,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.153432",
+      "username": "ansible",
+      "password": "amateur",
+      "success": false,
+      "response_time_ms": 29.75,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.151372",
+      "username": "adm",
+      "password": "131313",
+      "success": false,
+      "response_time_ms": 32.14,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.155274",
+      "username": "ftp",
+      "password": "david",
+      "success": false,
+      "response_time_ms": 28.83,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.162109",
+      "username": "vagrant",
+      "password": "buddy",
+      "success": false,
+      "response_time_ms": 29.92,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.186811",
+      "username": "pi",
+      "password": "lights",
+      "success": false,
+      "response_time_ms": 15.32,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.219255",
+      "username": "administrator",
+      "password": "888888",
+      "success": false,
+      "response_time_ms": 27.59,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.230736",
+      "username": "admin",
+      "password": "vision",
+      "success": false,
+      "response_time_ms": 30.56,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.230635",
+      "username": "root",
+      "password": "111111",
+      "success": false,
+      "response_time_ms": 32.82,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.230413",
+      "username": "mysql",
+      "password": "classic",
+      "success": false,
+      "response_time_ms": 33.21,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.233738",
+      "username": "ansible",
+      "password": "alaska",
+      "success": false,
+      "response_time_ms": 36.41,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.231656",
+      "username": "guest",
+      "password": "copper",
+      "success": false,
+      "response_time_ms": 38.73,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.238595",
+      "username": "ftp",
+      "password": "winner",
+      "success": false,
+      "response_time_ms": 35.03,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.236841",
+      "username": "adm",
+      "password": "money",
+      "success": false,
+      "response_time_ms": 36.9,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.247094",
+      "username": "vagrant",
+      "password": "dolphins",
+      "success": false,
+      "response_time_ms": 30.28,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.258017",
+      "username": "pi",
+      "password": "ryan",
+      "success": false,
+      "response_time_ms": 21.34,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.302058",
+      "username": "administrator",
+      "password": "natasha",
+      "success": false,
+      "response_time_ms": 19.08,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.317388",
+      "username": "admin",
+      "password": "pokemon",
+      "success": false,
+      "response_time_ms": 27.96,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.316752",
+      "username": "mysql",
+      "password": "bulldogs",
+      "success": false,
+      "response_time_ms": 33.55,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.323633",
+      "username": "ansible",
+      "password": "badger",
+      "success": false,
+      "response_time_ms": 27.19,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.316380",
+      "username": "root",
+      "password": "2000",
+      "success": false,
+      "response_time_ms": 34.53,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.328015",
+      "username": "vagrant",
+      "password": "rainbow",
+      "success": false,
+      "response_time_ms": 27.01,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.325591",
+      "username": "guest",
+      "password": "billy",
+      "success": false,
+      "response_time_ms": 29.59,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.327553",
+      "username": "ftp",
+      "password": "crystal",
+      "success": false,
+      "response_time_ms": 27.77,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.327671",
+      "username": "adm",
+      "password": "horny",
+      "success": false,
+      "response_time_ms": 27.76,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.333556",
+      "username": "pi",
+      "password": "looking",
+      "success": false,
+      "response_time_ms": 21.96,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.373214",
+      "username": "administrator",
+      "password": "sniper",
+      "success": false,
+      "response_time_ms": 17.13,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.396680",
+      "username": "admin",
+      "password": "champion",
+      "success": false,
+      "response_time_ms": 19.7,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.403641",
+      "username": "root",
+      "password": "jordan",
+      "success": false,
+      "response_time_ms": 16.14,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.403822",
+      "username": "mysql",
+      "password": "poopoo",
+      "success": false,
+      "response_time_ms": 18.63,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.403933",
+      "username": "ansible",
+      "password": "paradise",
+      "success": false,
+      "response_time_ms": 25.2,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.409209",
+      "username": "adm",
+      "password": "samantha",
+      "success": false,
+      "response_time_ms": 23.74,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.408671",
+      "username": "ftp",
+      "password": "golden",
+      "success": false,
+      "response_time_ms": 37.14,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.411269",
+      "username": "guest",
+      "password": "cumshot",
+      "success": false,
+      "response_time_ms": 35.21,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.410121",
+      "username": "vagrant",
+      "password": "gunner",
+      "success": false,
+      "response_time_ms": 36.53,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.409506",
+      "username": "pi",
+      "password": "chronic",
+      "success": false,
+      "response_time_ms": 37.28,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.442236",
+      "username": "administrator",
+      "password": "chance",
+      "success": false,
+      "response_time_ms": 20.31,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.467760",
+      "username": "admin",
+      "password": "fireman",
+      "success": false,
+      "response_time_ms": 28.5,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.472586",
+      "username": "mysql",
+      "password": "accord",
+      "success": false,
+      "response_time_ms": 50.73,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.488051",
+      "username": "adm",
+      "password": "panties",
+      "success": false,
+      "response_time_ms": 36.91,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.481458",
+      "username": "ansible",
+      "password": "maryjane",
+      "success": false,
+      "response_time_ms": 44.49,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.474925",
+      "username": "root",
+      "password": "superman",
+      "success": false,
+      "response_time_ms": 51.22,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.499247",
+      "username": "ftp",
+      "password": "butthead",
+      "success": false,
+      "response_time_ms": 35.76,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.502033",
+      "username": "vagrant",
+      "password": "987654",
+      "success": false,
+      "response_time_ms": 33.17,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.502116",
+      "username": "pi",
+      "password": "alison",
+      "success": false,
+      "response_time_ms": 33.19,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.501605",
+      "username": "guest",
+      "password": "garfield",
+      "success": false,
+      "response_time_ms": 39.27,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.517664",
+      "username": "administrator",
+      "password": "genesis",
+      "success": false,
+      "response_time_ms": 23.69,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.550578",
+      "username": "admin",
+      "password": "indian",
+      "success": false,
+      "response_time_ms": 27.31,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.579638",
+      "username": "adm",
+      "password": "steelers",
+      "success": false,
+      "response_time_ms": 26.91,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.580384",
+      "username": "root",
+      "password": "harley",
+      "success": false,
+      "response_time_ms": 32.11,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.575606",
+      "username": "mysql",
+      "password": "popcorn",
+      "success": false,
+      "response_time_ms": 36.98,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.581686",
+      "username": "ansible",
+      "password": "poop",
+      "success": false,
+      "response_time_ms": 31.03,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.589333",
+      "username": "pi",
+      "password": "hahaha",
+      "success": false,
+      "response_time_ms": 43.19,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.589119",
+      "username": "vagrant",
+      "password": "freddy",
+      "success": false,
+      "response_time_ms": 43.99,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.592224",
+      "username": "guest",
+      "password": "willow",
+      "success": false,
+      "response_time_ms": 43.17,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.595886",
+      "username": "administrator",
+      "password": "hotrod",
+      "success": false,
+      "response_time_ms": 39.76,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.590281",
+      "username": "ftp",
+      "password": "viking",
+      "success": false,
+      "response_time_ms": 46.09,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.633346",
+      "username": "admin",
+      "password": "softball",
+      "success": false,
+      "response_time_ms": 18.75,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.663218",
+      "username": "root",
+      "password": "1234567",
+      "success": false,
+      "response_time_ms": 31.87,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.664715",
+      "username": "mysql",
+      "password": "turkey",
+      "success": false,
+      "response_time_ms": 30.53,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.665729",
+      "username": "ansible",
+      "password": "crazy",
+      "success": false,
+      "response_time_ms": 29.88,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.661113",
+      "username": "adm",
+      "password": "joseph",
+      "success": false,
+      "response_time_ms": 34.66,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.684692",
+      "username": "pi",
+      "password": "packard",
+      "success": false,
+      "response_time_ms": 22.62,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.684917",
+      "username": "vagrant",
+      "password": "alexis",
+      "success": false,
+      "response_time_ms": 22.48,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.691104",
+      "username": "guest",
+      "password": "cunt",
+      "success": false,
+      "response_time_ms": 41.22,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.691217",
+      "username": "ftp",
+      "password": "jack",
+      "success": false,
+      "response_time_ms": 41.33,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.689555",
+      "username": "administrator",
+      "password": "reddog",
+      "success": false,
+      "response_time_ms": 43.72,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.703682",
+      "username": "admin",
+      "password": "picard",
+      "success": false,
+      "response_time_ms": 31.27,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.748022",
+      "username": "adm",
+      "password": "snoopy",
+      "success": false,
+      "response_time_ms": 31.01,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.749102",
+      "username": "mysql",
+      "password": "jenny",
+      "success": false,
+      "response_time_ms": 29.96,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.746766",
+      "username": "ansible",
+      "password": "mozart",
+      "success": false,
+      "response_time_ms": 32.56,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.750417",
+      "username": "root",
+      "password": "fuckme",
+      "success": false,
+      "response_time_ms": 29.05,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.762419",
+      "username": "pi",
+      "password": "hendrix",
+      "success": false,
+      "response_time_ms": 53.95,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.762689",
+      "username": "vagrant",
+      "password": "braves",
+      "success": false,
+      "response_time_ms": 53.87,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.788643",
+      "username": "admin",
+      "password": "system",
+      "success": false,
+      "response_time_ms": 37.24,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.783708",
+      "username": "guest",
+      "password": "little",
+      "success": false,
+      "response_time_ms": 42.34,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.783462",
+      "username": "administrator",
+      "password": "alexande",
+      "success": false,
+      "response_time_ms": 42.66,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.785015",
+      "username": "ftp",
+      "password": "iwantu",
+      "success": false,
+      "response_time_ms": 41.35,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.830735",
+      "username": "mysql",
+      "password": "amber",
+      "success": false,
+      "response_time_ms": 24.48,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.832781",
+      "username": "adm",
+      "password": "boomer",
+      "success": false,
+      "response_time_ms": 22.63,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.834438",
+      "username": "ansible",
+      "password": "video",
+      "success": false,
+      "response_time_ms": 21.56,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.834572",
+      "username": "root",
+      "password": "hunter",
+      "success": false,
+      "response_time_ms": 23.31,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.868666",
+      "username": "vagrant",
+      "password": "cock",
+      "success": false,
+      "response_time_ms": 29.33,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.869104",
+      "username": "pi",
+      "password": "perfect",
+      "success": false,
+      "response_time_ms": 29.2,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.878053",
+      "username": "administrator",
+      "password": "college",
+      "success": false,
+      "response_time_ms": 28.48,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.876367",
+      "username": "admin",
+      "password": "clinton",
+      "success": false,
+      "response_time_ms": 30.34,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.880262",
+      "username": "guest",
+      "password": "carter",
+      "success": false,
+      "response_time_ms": 28.76,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.880482",
+      "username": "ftp",
+      "password": "shannon",
+      "success": false,
+      "response_time_ms": 28.68,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.907498",
+      "username": "mysql",
+      "password": "bunny",
+      "success": false,
+      "response_time_ms": 33.01,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.909596",
+      "username": "ansible",
+      "password": "russell",
+      "success": false,
+      "response_time_ms": 31.15,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.907794",
+      "username": "adm",
+      "password": "whatever",
+      "success": false,
+      "response_time_ms": 33.1,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.909454",
+      "username": "root",
+      "password": "fuckyou",
+      "success": false,
+      "response_time_ms": 31.53,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.953215",
+      "username": "vagrant",
+      "password": "2112",
+      "success": false,
+      "response_time_ms": 30.94,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.953536",
+      "username": "pi",
+      "password": "service",
+      "success": false,
+      "response_time_ms": 31.01,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.961946",
+      "username": "admin",
+      "password": "cobra",
+      "success": false,
+      "response_time_ms": 26.9,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.964433",
+      "username": "ftp",
+      "password": "murphy",
+      "success": false,
+      "response_time_ms": 24.58,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.963740",
+      "username": "guest",
+      "password": "slut",
+      "success": false,
+      "response_time_ms": 25.37,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.961707",
+      "username": "administrator",
+      "password": "jester",
+      "success": false,
+      "response_time_ms": 27.51,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.992491",
+      "username": "adm",
+      "password": "iceman",
+      "success": false,
+      "response_time_ms": 22.29,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.994618",
+      "username": "ansible",
+      "password": "vagina",
+      "success": false,
+      "response_time_ms": 27.76,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.995299",
+      "username": "root",
+      "password": "trustno1",
+      "success": false,
+      "response_time_ms": 27.25,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:24.994475",
+      "username": "mysql",
+      "password": "mouse",
+      "success": false,
+      "response_time_ms": 29.68,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.039125",
+      "username": "pi",
+      "password": "spring",
+      "success": false,
+      "response_time_ms": 42.5,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.039536",
+      "username": "guest",
+      "password": "albert",
+      "success": false,
+      "response_time_ms": 42.74,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.039424",
+      "username": "vagrant",
+      "password": "1212",
+      "success": false,
+      "response_time_ms": 45.52,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.041450",
+      "username": "administrator",
+      "password": "passw0rd",
+      "success": false,
+      "response_time_ms": 48.84,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.041557",
+      "username": "ftp",
+      "password": "angels",
+      "success": false,
+      "response_time_ms": 49.75,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.043950",
+      "username": "admin",
+      "password": "enjoy",
+      "success": false,
+      "response_time_ms": 47.75,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.066857",
+      "username": "adm",
+      "password": "smokey",
+      "success": false,
+      "response_time_ms": 29.03,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.077517",
+      "username": "ansible",
+      "password": "spitfire",
+      "success": false,
+      "response_time_ms": 21.48,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.081331",
+      "username": "mysql",
+      "password": "007007",
+      "success": false,
+      "response_time_ms": 20.48,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.078663",
+      "username": "root",
+      "password": "ranger",
+      "success": false,
+      "response_time_ms": 23.8,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.133544",
+      "username": "pi",
+      "password": "srinivas",
+      "success": false,
+      "response_time_ms": 28.65,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.135453",
+      "username": "guest",
+      "password": "69696969",
+      "success": false,
+      "response_time_ms": 26.98,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.140855",
+      "username": "vagrant",
+      "password": "cocacola",
+      "success": false,
+      "response_time_ms": 31.61,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.144572",
+      "username": "administrator",
+      "password": "bigcock",
+      "success": false,
+      "response_time_ms": 36.13,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.149475",
+      "username": "adm",
+      "password": "gateway",
+      "success": false,
+      "response_time_ms": 31.44,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.147825",
+      "username": "admin",
+      "password": "lucky1",
+      "success": false,
+      "response_time_ms": 33.18,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.154588",
+      "username": "root",
+      "password": "buster",
+      "success": false,
+      "response_time_ms": 26.51,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.153655",
+      "username": "mysql",
+      "password": "titanic",
+      "success": false,
+      "response_time_ms": 27.6,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.147152",
+      "username": "ftp",
+      "password": "prince",
+      "success": false,
+      "response_time_ms": 34.19,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.154406",
+      "username": "ansible",
+      "password": "anderson",
+      "success": false,
+      "response_time_ms": 28.76,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.217545",
+      "username": "pi",
+      "password": "spike",
+      "success": false,
+      "response_time_ms": 28.05,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.218764",
+      "username": "guest",
+      "password": "kitten",
+      "success": false,
+      "response_time_ms": 27.18,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.232631",
+      "username": "root",
+      "password": "thomas",
+      "success": false,
+      "response_time_ms": 24.46,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.232716",
+      "username": "mysql",
+      "password": "liverpool",
+      "success": false,
+      "response_time_ms": 26.85,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.232415",
+      "username": "adm",
+      "password": "dakota",
+      "success": false,
+      "response_time_ms": 27.26,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.226295",
+      "username": "vagrant",
+      "password": "xavier",
+      "success": false,
+      "response_time_ms": 33.46,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.232233",
+      "username": "administrator",
+      "password": "smith",
+      "success": false,
+      "response_time_ms": 28.04,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.234375",
+      "username": "ansible",
+      "password": "norman",
+      "success": false,
+      "response_time_ms": 40.52,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.233461",
+      "username": "ftp",
+      "password": "cameron",
+      "success": false,
+      "response_time_ms": 41.62,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.232522",
+      "username": "admin",
+      "password": "claire",
+      "success": false,
+      "response_time_ms": 42.68,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.300783",
+      "username": "guest",
+      "password": "super",
+      "success": false,
+      "response_time_ms": 18.29,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.301189",
+      "username": "pi",
+      "password": "katie",
+      "success": false,
+      "response_time_ms": 31.45,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.308715",
+      "username": "root",
+      "password": "tigger",
+      "success": false,
+      "response_time_ms": 26.33,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.315015",
+      "username": "administrator",
+      "password": "lasvegas",
+      "success": false,
+      "response_time_ms": 35.57,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.326553",
+      "username": "ftp",
+      "password": "girls",
+      "success": false,
+      "response_time_ms": 24.28,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.314785",
+      "username": "adm",
+      "password": "cowboys",
+      "success": false,
+      "response_time_ms": 36.97,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.313669",
+      "username": "mysql",
+      "password": "dreamer",
+      "success": false,
+      "response_time_ms": 38.2,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.314889",
+      "username": "vagrant",
+      "password": "dolphin",
+      "success": false,
+      "response_time_ms": 37.08,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.329565",
+      "username": "ansible",
+      "password": "eric",
+      "success": false,
+      "response_time_ms": 37.97,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.329783",
+      "username": "admin",
+      "password": "claudia",
+      "success": false,
+      "response_time_ms": 38.32,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.374257",
+      "username": "guest",
+      "password": "jordan23",
+      "success": false,
+      "response_time_ms": 30.13,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.383666",
+      "username": "pi",
+      "password": "252525",
+      "success": false,
+      "response_time_ms": 26.53,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.385571",
+      "username": "root",
+      "password": "robert",
+      "success": false,
+      "response_time_ms": 26.1,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.404062",
+      "username": "vagrant",
+      "password": "testing",
+      "success": false,
+      "response_time_ms": 36.21,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.405892",
+      "username": "ftp",
+      "password": "madison",
+      "success": false,
+      "response_time_ms": 34.57,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.405485",
+      "username": "administrator",
+      "password": "carmen",
+      "success": false,
+      "response_time_ms": 35.1,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.404696",
+      "username": "adm",
+      "password": "eagles",
+      "success": false,
+      "response_time_ms": 36.04,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.404617",
+      "username": "mysql",
+      "password": "everton",
+      "success": false,
+      "response_time_ms": 36.21,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.420155",
+      "username": "admin",
+      "password": "boogie",
+      "success": false,
+      "response_time_ms": 34.07,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.418205",
+      "username": "ansible",
+      "password": "cherokee",
+      "success": false,
+      "response_time_ms": 36.37,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.458650",
+      "username": "guest",
+      "password": "eagle1",
+      "success": false,
+      "response_time_ms": 18.55,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.462936",
+      "username": "pi",
+      "password": "oscar",
+      "success": false,
+      "response_time_ms": 31.78,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.463128",
+      "username": "root",
+      "password": "soccer",
+      "success": false,
+      "response_time_ms": 33.69,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.492460",
+      "username": "adm",
+      "password": "chicken",
+      "success": false,
+      "response_time_ms": 37.66,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.495864",
+      "username": "administrator",
+      "password": "slipknot",
+      "success": false,
+      "response_time_ms": 34.54,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.493024",
+      "username": "mysql",
+      "password": "friends",
+      "success": false,
+      "response_time_ms": 43.03,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.494407",
+      "username": "vagrant",
+      "password": "bond007",
+      "success": false,
+      "response_time_ms": 42.65,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.494885",
+      "username": "ftp",
+      "password": "wilson",
+      "success": false,
+      "response_time_ms": 42.92,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.509897",
+      "username": "admin",
+      "password": "timothy",
+      "success": false,
+      "response_time_ms": 34.0,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.509150",
+      "username": "ansible",
+      "password": "cougar",
+      "success": false,
+      "response_time_ms": 34.88,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.528797",
+      "username": "guest",
+      "password": "shelby",
+      "success": false,
+      "response_time_ms": 21.13,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.549125",
+      "username": "root",
+      "password": "fuck",
+      "success": false,
+      "response_time_ms": 31.55,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.550068",
+      "username": "pi",
+      "password": "brother",
+      "success": false,
+      "response_time_ms": 30.85,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.583934",
+      "username": "administrator",
+      "password": "3333",
+      "success": false,
+      "response_time_ms": 23.54,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.583714",
+      "username": "adm",
+      "password": "dick",
+      "success": false,
+      "response_time_ms": 24.11,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.591024",
+      "username": "ftp",
+      "password": "carlos",
+      "success": false,
+      "response_time_ms": 28.63,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.590486",
+      "username": "vagrant",
+      "password": "member",
+      "success": false,
+      "response_time_ms": 29.37,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.591220",
+      "username": "mysql",
+      "password": "chevelle",
+      "success": false,
+      "response_time_ms": 29.15,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.596482",
+      "username": "admin",
+      "password": "marines",
+      "success": false,
+      "response_time_ms": 33.69,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.600356",
+      "username": "guest",
+      "password": "america",
+      "success": false,
+      "response_time_ms": 30.05,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.597238",
+      "username": "ansible",
+      "password": "barbara",
+      "success": false,
+      "response_time_ms": 33.4,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.631953",
+      "username": "pi",
+      "password": "bigmac",
+      "success": false,
+      "response_time_ms": 31.62,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.634131",
+      "username": "root",
+      "password": "batman",
+      "success": false,
+      "response_time_ms": 29.65,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.659695",
+      "username": "adm",
+      "password": "black",
+      "success": false,
+      "response_time_ms": 45.24,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.662667",
+      "username": "administrator",
+      "password": "death",
+      "success": false,
+      "response_time_ms": 42.72,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.675101",
+      "username": "mysql",
+      "password": "carrie",
+      "success": false,
+      "response_time_ms": 30.4,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.674986",
+      "username": "vagrant",
+      "password": "calvin",
+      "success": false,
+      "response_time_ms": 30.92,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.671547",
+      "username": "ftp",
+      "password": "hooters",
+      "success": false,
+      "response_time_ms": 34.48,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.684483",
+      "username": "ansible",
+      "password": "long",
+      "success": false,
+      "response_time_ms": 30.48,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.681865",
+      "username": "guest",
+      "password": "11111",
+      "success": false,
+      "response_time_ms": 33.24,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.681681",
+      "username": "admin",
+      "password": "security",
+      "success": false,
+      "response_time_ms": 33.51,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.718666",
+      "username": "pi",
+      "password": "suck",
+      "success": false,
+      "response_time_ms": 28.43,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.719195",
+      "username": "root",
+      "password": "test",
+      "success": false,
+      "response_time_ms": 28.06,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.761577",
+      "username": "mysql",
+      "password": "gabriel",
+      "success": false,
+      "response_time_ms": 26.63,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.760137",
+      "username": "administrator",
+      "password": "kimberly",
+      "success": false,
+      "response_time_ms": 28.28,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.760499",
+      "username": "adm",
+      "password": "zxcvbn",
+      "success": false,
+      "response_time_ms": 52.71,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.770367",
+      "username": "guest",
+      "password": "jessie",
+      "success": false,
+      "response_time_ms": 43.21,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.761368",
+      "username": "vagrant",
+      "password": "voodoo",
+      "success": false,
+      "response_time_ms": 52.43,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.770116",
+      "username": "ansible",
+      "password": "420420",
+      "success": false,
+      "response_time_ms": 43.82,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.770593",
+      "username": "admin",
+      "password": "dirty",
+      "success": false,
+      "response_time_ms": 43.47,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.763314",
+      "username": "ftp",
+      "password": "willie",
+      "success": false,
+      "response_time_ms": 50.93,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.802217",
+      "username": "pi",
+      "password": "single",
+      "success": false,
+      "response_time_ms": 44.65,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.801158",
+      "username": "root",
+      "password": "pass",
+      "success": false,
+      "response_time_ms": 45.86,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.839199",
+      "username": "mysql",
+      "password": "psycho",
+      "success": false,
+      "response_time_ms": 20.09,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.843845",
+      "username": "administrator",
+      "password": "1q2w3e",
+      "success": false,
+      "response_time_ms": 15.61,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.867478",
+      "username": "ansible",
+      "password": "family",
+      "success": false,
+      "response_time_ms": 33.64,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.866682",
+      "username": "adm",
+      "password": "please",
+      "success": false,
+      "response_time_ms": 34.63,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.869925",
+      "username": "guest",
+      "password": "house",
+      "success": false,
+      "response_time_ms": 36.45,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.869611",
+      "username": "ftp",
+      "password": "startrek",
+      "success": false,
+      "response_time_ms": 37.0,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.869211",
+      "username": "vagrant",
+      "password": "7777",
+      "success": false,
+      "response_time_ms": 40.63,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.900600",
+      "username": "pi",
+      "password": "cannon",
+      "success": false,
+      "response_time_ms": 29.77,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.899882",
+      "username": "root",
+      "password": "killer",
+      "success": false,
+      "response_time_ms": 30.75,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.869997",
+      "username": "admin",
+      "password": "admin",
+      "success": true,
+      "response_time_ms": 60.82,
+      "http_status": 200,
+      "response_length": 3674
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.914524",
+      "username": "administrator",
+      "password": "eclipse",
+      "success": false,
+      "response_time_ms": 22.47,
+      "http_status": 200,
+      "response_length": 6
+    },
+    {
+      "timestamp": "2026-02-04T15:21:25.913669",
+      "username": "mysql",
+      "password": "nemesis",
+      "success": false,
+      "response_time_ms": 23.56,
+      "http_status": 200,
+      "response_length": 6
+    }
+  ]
+}
