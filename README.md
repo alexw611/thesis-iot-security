@@ -61,8 +61,6 @@ thesis-iot-security/
 
 ![Network Topology](images/network_topology.png)
 
-*Note: Some labels in the diagram are kept in German to maintain consistency with the original bachelor thesis.*
-
 ### Insecure System
 - No encryption, no authentication, no rate limiting
 - TCP stream transmitted in cleartext
