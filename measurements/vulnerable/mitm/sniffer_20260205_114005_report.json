@@ -1,0 +1,14 @@
+{
+  "experiment_date": "2026-02-05",
+  "experiment_time": "11:40:05",
+  "duration_seconds": 24.31,
+  "target_server": "192.168.0.100:9000",
+  "total_frames_captured": 25,
+  "total_bytes_captured": 114145,
+  "frames_per_camera": {
+    "Garten_Cam_03": 25
+  },
+  "avg_latency_ms": 26.92,
+  "confidentiality_violated": true,
+  "vulnerability_confirmed": true
+}
