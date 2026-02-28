@@ -140,7 +140,7 @@ pip install -r requirements_attacker.txt
 - The results challenge the assumption that hardening an IoT camera system with resource-constrained microcontrollers necessarily entails significant performance penalties
 
 ## AI Disclosure
-Parts of the source code were generated with the assistance of AI tools (Claude Opus 4.5, Gemini 3 Pro). All AI-generated content was critically reviewed, verified, and modified by the author. Full documentation of AI usage is provided in Appendix E of the thesis, in accordance with the AI usage policy of IU Internationale Hochschule.
+Parts of the source code were generated with the assistance of AI tools (Claude Opus 4.5, Claude Opus 4.6, Gemini 3 Pro). All AI-generated content was critically reviewed, verified, and modified by the author. Full documentation of AI usage is provided in Appendix E of the thesis, in accordance with the AI usage policy of IU Internationale Hochschule.
 
 ## License
 This project is provided **for educational and academic purposes only**. No license is granted for commercial use. See the ethical use disclaimer above.
