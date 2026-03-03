@@ -106,7 +106,7 @@ pip install -r requirements_attacker.txt
 - All attack scripts were developed and executed **exclusively within an isolated lab network.**
 - **No production systems, third-party networks, or external devices were targeted at any point during this research.**
 - The "Vulnerable by Design" system was specifically built for this thesis to demonstrate common IoT security flaws in a controlled environment.
-- The isolated lab environment is documented in the thesis (Appendix E.3: Ethiknachweis).
+- The isolated lab environment is documented in the thesis (Appendix E.2: Ethiknachweis).
 
 ### By accessing this repository, you agree to the following:
 1. **You will NOT use any of the provided attack scripts against systems you do not own or have explicit written permission to test.**
