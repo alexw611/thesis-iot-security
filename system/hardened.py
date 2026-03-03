@@ -296,7 +296,6 @@ def login():
                    autocomplete="current-password">
             <button>Login</button>
         </form>
-        <div class="secure">🛡️ TLS + Rate-Limiting + Brute-Force-Schutz</div>
     </div>
     """
 
