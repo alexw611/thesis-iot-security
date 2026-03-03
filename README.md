@@ -20,8 +20,7 @@ thesis-iot-security/
 │
 ├── README.md
 │
-├── images/
-│   └── network_topology.png      # Network architecture diagram
+├── images/                       # Screenshots and visual documentation
 │
 ├── system/
 │   ├── requirements_server.txt   # Raspberry Pi 5 dependencies
